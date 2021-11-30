@@ -1,0 +1,42 @@
+body{
+    display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+    }
+    
+    
+    h1 {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px
+    }
+    
+    #Display {
+            display: flex;
+            justify-content: center;
+            color:white;
+            background: black;
+            padding: 10px;
+            margin: 20px;
+            text-align: center;
+            line-height: 50px;
+            font: 50px bold;
+            border-radius: 10px;
+            width: 60%;
+    }
+    
+    button {
+            padding: 10px; 
+            border-radius: 10px;
+            background: white;
+            color: black;
+        
+    }
+    
+    button:hover{
+            background: black;
+            color: white;
+    }
+    
+    
